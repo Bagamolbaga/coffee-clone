@@ -14,7 +14,7 @@ const MilkOptions = () => {
         return (
         <label className="options-container__item">
           <h3 className="options-container__item_tittle">{item.tittle} <span className="options-container__item_tittle_price">($ {item.price})</span></h3>
-          <input className="options-container__item_radio" type="checkbox" id={item.id} onChange={(e)=>{radioButtonsHandler(e, item.id)}} checked={item.checked} type='checkbox' name='chocolade' />
+          <input className="options-container__item_radio" type="checkbox" id={item.id} onChange={(e)=>{radioButtonsHandler(e, item.id)}} checked={item.checked} name='chocolade' />
           <span className="fake-checkbox"></span>
         </label>
           )
