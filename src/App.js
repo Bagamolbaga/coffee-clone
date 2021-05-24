@@ -1,7 +1,7 @@
 import React from "react";
 import { Context } from "./context";
 
-import './styles.sass'
+import './styles.css'
 
 import Header from "./components/Header.jsx";
 import MilkOptions from "./components/MilkOptions.jsx";
