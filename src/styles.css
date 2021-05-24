@@ -198,3 +198,14 @@ body {
 .options-container__item_radio:checked + .fake-checkbox::before {
   opacity: 1;
 }
+
+
+@media screen and (max-width: 400px){
+  .container{
+    width: 100%;
+  }
+
+  .btn-add{
+    width: 90%;
+  }
+}
